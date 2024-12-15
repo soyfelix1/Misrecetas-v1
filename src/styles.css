@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .navbar-links li {
+    margin: 0;
+  }
+
+  .navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .home {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .home h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .home p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+
+  .recipe-list {
+    margin-top: 20px;
+  }
+
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .recipe-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .recipe-card h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+
+  .recipe-card p {
+    margin: 10px 0;
+    color: #666;
+  }
+
+  .recipe-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .recipe-detail {
+    margin-top: 20px;
+  }
+
+  .recipe-detail h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .recipe-detail h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .recipe-detail ul,
+  .recipe-detail ol {
+    margin-left: 20px;
+  }
+
+  .recipe-detail p {
+    margin: 10px 0;
+  }
+
+  .recipe-detail a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .calendar {
+    margin-top: 20px;
+  }
+
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .calendar-header button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .calendar-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+
+  .calendar-day-name {
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+  }
+
+  .calendar-day {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .calendar-day.empty {
+    background-color: transparent;
+    cursor: default;
+  }
+
+  .calendar-day.today {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+  }
+
+  .planned-recipes {
+    margin-top: 20px;
+  }
+
+  .planned-recipes h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .planned-recipes ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .planned-recipes li {
+    margin: 5px 0;
+  }
+
+  .planned-recipes button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .menu-planning-view {
+    margin-top: 20px;
+  }
+
+  .menu-planning-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .menu-day {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  .menu-day h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+
+  .menu-day ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .menu-day li {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-day button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
